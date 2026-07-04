@@ -283,6 +283,7 @@ body {
     overflow: hidden;
     border: 3px solid var(--border-light);
     box-shadow: var(--shadow-lg);
+    background: var(--bg-secondary);
 }
 
 .hero-image-wrapper img {
@@ -290,6 +291,8 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center top;
+    image-rendering: -webkit-optimize-contrast;
+    filter: contrast(1.08) saturate(1.05);
 }
 
 .hero-scroll-indicator {
